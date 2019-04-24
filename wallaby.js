@@ -3,9 +3,7 @@ module.exports = wallaby => {
 
   return {
     files: [
-      'src/components/*',
-      'src/components/**/*',
-      'src/app/*',
+      'src/**',
       'package.json',
       'tsconfig.json',
       'jest.config.js',
@@ -26,15 +24,6 @@ module.exports = wallaby => {
     env: {
       type: 'node',
       runner: 'node',
-    },
-
-    compilers: {
-      '**/*.ts?(x)': wallaby.compilers.typeScript({
-        target: "es5",
-        module: "commonjs",
-        allowSyntheticDefaultImports: false,
-        esModuleInterop: false,
-      })
     },
 
     preprocessors: {
