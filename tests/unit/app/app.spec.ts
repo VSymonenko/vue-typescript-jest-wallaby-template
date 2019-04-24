@@ -1,5 +1,4 @@
 import App from '@/app';
-// const App = require('@/app');
 import { shallowMount, createLocalVue } from '@vue/test-utils';
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* need add to all views for mock store and dependencies      */

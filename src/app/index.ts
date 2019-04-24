@@ -25,7 +25,7 @@ export default class App extends Vue {
 
     return createElement('div',
       data,
-      [createElement('router-view')],
+      ['Hello word!', createElement('router-view')],
     );
   }
 }

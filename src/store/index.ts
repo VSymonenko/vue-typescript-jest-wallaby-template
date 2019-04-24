@@ -1,8 +1,6 @@
 import Vuex from 'vuex';
 import Vue from 'vue';
-import user from './modules/user';
 import settings from './modules/settings';
-import mainPage from './modules/mainPage';
 
 Vue.use(Vuex);
 

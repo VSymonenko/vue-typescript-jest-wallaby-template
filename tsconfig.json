@@ -34,6 +34,12 @@
     "src/**/*.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
+    "src/components/**/*.d.ts",
+    "src/components/**/*.ts",
+    "src/components/**/*.vue",
+    "src/views/**/*.d.ts",
+    "src/views/**/*.ts",
+    "src/views/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
   ],

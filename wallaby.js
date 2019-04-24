@@ -1,7 +1,6 @@
 module.exports = wallaby => {
   process.env.VUE_CLI_BABEL_TRANSPILE_MODULES = true;
-  // process.env.BABEL_ENV = 'test'
-  console.log(wallaby.compilers.typeScript());
+
   return {
     files: [
       'src/components/*',

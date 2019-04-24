@@ -1,8 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`app renders correctly snapshot correct 1`] = `
-<div class="pa-4" id="app">
-  <router-view-stub name="default"></router-view-stub>
-  <appfooter-stub></appfooter-stub>
+<div class="pa-4" id="app">Hello word!<router-view-stub name="default"></router-view-stub>
 </div>
 `;
