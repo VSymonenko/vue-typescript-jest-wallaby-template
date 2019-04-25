@@ -2,7 +2,7 @@ import App from '@/app';
 import { shallowMount, createLocalVue } from '@vue/test-utils';
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* need add to all views for mock store and dependencies      */
-import '../common.ts';
+import '../common';
 import Vuex from 'vuex';
 import store from '@/store';
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
